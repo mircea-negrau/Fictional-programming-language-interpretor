@@ -1,0 +1,505 @@
+Thread ID: 3
+- ExeStack:
+boolean a
+(int v; (a=true; (a ? v=2 : v=3; Print(v))))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+(int v; (a=true; (a ? v=2 : v=3; Print(v))))
+- SymTable:
+a->false
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+int v
+(a=true; (a ? v=2 : v=3; Print(v)))
+- SymTable:
+a->false
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+(a=true; (a ? v=2 : v=3; Print(v)))
+- SymTable:
+a->false
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+a=true
+(a ? v=2 : v=3; Print(v))
+- SymTable:
+a->false
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+(a ? v=2 : v=3; Print(v))
+- SymTable:
+a->true
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+a ? v=2 : v=3
+Print(v)
+- SymTable:
+a->true
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+v=2
+Print(v)
+- SymTable:
+a->true
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+Print(v)
+- SymTable:
+a->true
+v->2
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+- SymTable:
+a->true
+v->2
+- Out:
+2
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+boolean a
+(int v; (a=true; (a ? v=2 : v=3; Print(v))))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+(int v; (a=true; (a ? v=2 : v=3; Print(v))))
+- SymTable:
+a->false
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+int v
+(a=true; (a ? v=2 : v=3; Print(v)))
+- SymTable:
+a->false
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+(a=true; (a ? v=2 : v=3; Print(v)))
+- SymTable:
+a->false
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+a=true
+(a ? v=2 : v=3; Print(v))
+- SymTable:
+a->false
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+(a ? v=2 : v=3; Print(v))
+- SymTable:
+a->true
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+a ? v=2 : v=3
+Print(v)
+- SymTable:
+a->true
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+v=2
+Print(v)
+- SymTable:
+a->true
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+Print(v)
+- SymTable:
+a->true
+v->2
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+- SymTable:
+a->true
+v->2
+- Out:
+2
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+boolean a
+(int v; (a=true; (a ? v=2 : v=3; Print(v))))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+(int v; (a=true; (a ? v=2 : v=3; Print(v))))
+- SymTable:
+a->false
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+int v
+(a=true; (a ? v=2 : v=3; Print(v)))
+- SymTable:
+a->false
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+(a=true; (a ? v=2 : v=3; Print(v)))
+- SymTable:
+a->false
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+a=true
+(a ? v=2 : v=3; Print(v))
+- SymTable:
+a->false
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+(a ? v=2 : v=3; Print(v))
+- SymTable:
+a->true
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+a ? v=2 : v=3
+Print(v)
+- SymTable:
+a->true
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+v=2
+Print(v)
+- SymTable:
+a->true
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+Print(v)
+- SymTable:
+a->true
+v->2
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+- SymTable:
+a->true
+v->2
+- Out:
+2
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+boolean a
+(int v; (a=true; (a ? v=2 : v=3; Print(v))))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+(int v; (a=true; (a ? v=2 : v=3; Print(v))))
+- SymTable:
+a->false
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+int v
+(a=true; (a ? v=2 : v=3; Print(v)))
+- SymTable:
+a->false
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+(a=true; (a ? v=2 : v=3; Print(v)))
+- SymTable:
+a->false
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+a=true
+(a ? v=2 : v=3; Print(v))
+- SymTable:
+a->false
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+(a ? v=2 : v=3; Print(v))
+- SymTable:
+a->true
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+a ? v=2 : v=3
+Print(v)
+- SymTable:
+a->true
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+v=2
+Print(v)
+- SymTable:
+a->true
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+Print(v)
+- SymTable:
+a->true
+v->2
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+- SymTable:
+a->true
+v->2
+- Out:
+2
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+boolean a
+(int v; (a=true; (a ? v=2 : v=3; Print(v))))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+(int v; (a=true; (a ? v=2 : v=3; Print(v))))
+- SymTable:
+a->false
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+int v
+(a=true; (a ? v=2 : v=3; Print(v)))
+- SymTable:
+a->false
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+(a=true; (a ? v=2 : v=3; Print(v)))
+- SymTable:
+a->false
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+a=true
+(a ? v=2 : v=3; Print(v))
+- SymTable:
+a->false
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+(a ? v=2 : v=3; Print(v))
+- SymTable:
+a->true
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+a ? v=2 : v=3
+Print(v)
+- SymTable:
+a->true
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+v=2
+Print(v)
+- SymTable:
+a->true
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+Print(v)
+- SymTable:
+a->true
+v->2
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 3
+- ExeStack:
+- SymTable:
+a->true
+v->2
+- Out:
+2
+- FileTable:
+- Heap:
+

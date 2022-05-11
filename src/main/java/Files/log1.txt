@@ -1,0 +1,184 @@
+Thread ID: 1
+- ExeStack:
+int v
+(v=2; Print(v))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+(v=2; Print(v))
+- SymTable:
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+v=2
+Print(v)
+- SymTable:
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+Print(v)
+- SymTable:
+v->2
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+- SymTable:
+v->2
+- Out:
+2
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+int v
+(v=2; Print(v))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+(v=2; Print(v))
+- SymTable:
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+v=2
+Print(v)
+- SymTable:
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+Print(v)
+- SymTable:
+v->2
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+- SymTable:
+v->2
+- Out:
+2
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+int v
+(v=2; Print(v))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+(v=2; Print(v))
+- SymTable:
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+v=2
+Print(v)
+- SymTable:
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+Print(v)
+- SymTable:
+v->2
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+- SymTable:
+v->2
+- Out:
+2
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+int v
+(v=2; Print(v))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+(v=2; Print(v))
+- SymTable:
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+v=2
+Print(v)
+- SymTable:
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+Print(v)
+- SymTable:
+v->2
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 1
+- ExeStack:
+- SymTable:
+v->2
+- Out:
+2
+- FileTable:
+- Heap:
+

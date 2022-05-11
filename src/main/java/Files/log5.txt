@@ -1,0 +1,1075 @@
+Thread ID: 6
+- ExeStack:
+((int v; (Ref int a; v=3)); new(a,22))
+(Fork(((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a)))));; (Print(v); Print(Heap-Read(a))))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 6
+- ExeStack:
+(int v; (Ref int a; v=3))
+new(a,22)
+(Fork(((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a)))));; (Print(v); Print(Heap-Read(a))))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 6
+- ExeStack:
+int v
+(Ref int a; v=3)
+new(a,22)
+(Fork(((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a)))));; (Print(v); Print(Heap-Read(a))))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 6
+- ExeStack:
+(Ref int a; v=3)
+new(a,22)
+(Fork(((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a)))));; (Print(v); Print(Heap-Read(a))))
+- SymTable:
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 6
+- ExeStack:
+Ref int a
+v=3
+new(a,22)
+(Fork(((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a)))));; (Print(v); Print(Heap-Read(a))))
+- SymTable:
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 6
+- ExeStack:
+v=3
+new(a,22)
+(Fork(((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a)))));; (Print(v); Print(Heap-Read(a))))
+- SymTable:
+a->Ref(0)
+v->0
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 6
+- ExeStack:
+new(a,22)
+(Fork(((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a)))));; (Print(v); Print(Heap-Read(a))))
+- SymTable:
+a->Ref(0)
+v->3
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 6
+- ExeStack:
+(Fork(((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a)))));; (Print(v); Print(Heap-Read(a))))
+- SymTable:
+a->Ref(1)
+v->3
+- Out:
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 6
+- ExeStack:
+Fork(((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a)))));
+(Print(v); Print(Heap-Read(a)))
+- SymTable:
+a->Ref(1)
+v->3
+- Out:
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 6
+- ExeStack:
+(Print(v); Print(Heap-Read(a)))
+- SymTable:
+a->Ref(1)
+v->3
+- Out:
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a))))
+((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a))))
+- SymTable:
+a->Ref(1)
+v->3
+- Out:
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 6
+- ExeStack:
+Print(v)
+Print(Heap-Read(a))
+- SymTable:
+a->Ref(1)
+v->3
+- Out:
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 6
+- ExeStack:
+Print(v)
+Print(Heap-Read(a))
+- SymTable:
+a->Ref(1)
+v->3
+- Out:
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+(Heap-Write(a, 30); v=32)
+(Print(v); Print(Heap-Read(a)))
+((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a))))
+- SymTable:
+a->Ref(1)
+v->3
+- Out:
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+(Heap-Write(a, 30); v=32)
+(Print(v); Print(Heap-Read(a)))
+((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a))))
+- SymTable:
+a->Ref(1)
+v->3
+- Out:
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 6
+- ExeStack:
+Print(Heap-Read(a))
+- SymTable:
+a->Ref(1)
+v->3
+- Out:
+3
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 6
+- ExeStack:
+Print(Heap-Read(a))
+- SymTable:
+a->Ref(1)
+v->3
+- Out:
+3
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+Heap-Write(a, 30)
+v=32
+(Print(v); Print(Heap-Read(a)))
+((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a))))
+- SymTable:
+a->Ref(1)
+v->3
+- Out:
+3
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+Heap-Write(a, 30)
+v=32
+(Print(v); Print(Heap-Read(a)))
+((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a))))
+- SymTable:
+a->Ref(1)
+v->3
+- Out:
+3
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 6
+- ExeStack:
+- SymTable:
+a->Ref(1)
+v->3
+- Out:
+3
+22
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 6
+- ExeStack:
+- SymTable:
+a->Ref(1)
+v->3
+- Out:
+3
+22
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+v=32
+(Print(v); Print(Heap-Read(a)))
+((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a))))
+- SymTable:
+a->Ref(1)
+v->3
+- Out:
+3
+22
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+v=32
+(Print(v); Print(Heap-Read(a)))
+((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a))))
+- SymTable:
+a->Ref(1)
+v->3
+- Out:
+3
+22
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+(Print(v); Print(Heap-Read(a)))
+((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a))))
+- SymTable:
+a->Ref(1)
+v->32
+- Out:
+3
+22
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+(Print(v); Print(Heap-Read(a)))
+((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a))))
+- SymTable:
+a->Ref(1)
+v->32
+- Out:
+3
+22
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+Print(v)
+Print(Heap-Read(a))
+((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a))))
+- SymTable:
+a->Ref(1)
+v->32
+- Out:
+3
+22
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+Print(Heap-Read(a))
+((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a))))
+- SymTable:
+a->Ref(1)
+v->32
+- Out:
+3
+22
+32
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+((Heap-Write(a, 30); v=32); (Print(v); Print(Heap-Read(a))))
+- SymTable:
+a->Ref(1)
+v->32
+- Out:
+3
+22
+32
+22
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+(Heap-Write(a, 30); v=32)
+(Print(v); Print(Heap-Read(a)))
+- SymTable:
+a->Ref(1)
+v->32
+- Out:
+3
+22
+32
+22
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+Heap-Write(a, 30)
+v=32
+(Print(v); Print(Heap-Read(a)))
+- SymTable:
+a->Ref(1)
+v->32
+- Out:
+3
+22
+32
+22
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+v=32
+(Print(v); Print(Heap-Read(a)))
+- SymTable:
+a->Ref(1)
+v->32
+- Out:
+3
+22
+32
+22
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+(Print(v); Print(Heap-Read(a)))
+- SymTable:
+a->Ref(1)
+v->32
+- Out:
+3
+22
+32
+22
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+Print(v)
+Print(Heap-Read(a))
+- SymTable:
+a->Ref(1)
+v->32
+- Out:
+3
+22
+32
+22
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+Print(Heap-Read(a))
+- SymTable:
+a->Ref(1)
+v->32
+- Out:
+3
+22
+32
+22
+32
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 7
+- ExeStack:
+- SymTable:
+a->Ref(1)
+v->32
+- Out:
+3
+22
+32
+22
+32
+22
+- FileTable:
+- Heap:
+1->22
+
+Thread ID: 5
+- ExeStack:
+Ref int v
+(new(v,20); (Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 5
+- ExeStack:
+(new(v,20); (Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))))
+- SymTable:
+v->Ref(0)
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 5
+- ExeStack:
+new(v,20)
+(Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a))))))
+- SymTable:
+v->Ref(0)
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 5
+- ExeStack:
+(Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a))))))
+- SymTable:
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+Ref Ref int a
+(new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))
+- SymTable:
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+(new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))
+- SymTable:
+a->Ref(0)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+new(a,Ref(1))
+(new(v,30); Print(Heap-Read(Heap-Read(a))))
+- SymTable:
+a->Ref(0)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+(new(v,30); Print(Heap-Read(Heap-Read(a))))
+- SymTable:
+a->Ref(2)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+
+Thread ID: 5
+- ExeStack:
+new(v,30)
+Print(Heap-Read(Heap-Read(a)))
+- SymTable:
+a->Ref(2)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+
+Thread ID: 5
+- ExeStack:
+Print(Heap-Read(Heap-Read(a)))
+- SymTable:
+a->Ref(2)
+v->Ref(3)
+- Out:
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+3->30
+
+Thread ID: 5
+- ExeStack:
+- SymTable:
+a->Ref(2)
+v->Ref(3)
+- Out:
+20
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+3->30
+
+Thread ID: 5
+- ExeStack:
+Ref int v
+(new(v,20); (Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 5
+- ExeStack:
+(new(v,20); (Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))))
+- SymTable:
+v->Ref(0)
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 5
+- ExeStack:
+new(v,20)
+(Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a))))))
+- SymTable:
+v->Ref(0)
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 5
+- ExeStack:
+(Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a))))))
+- SymTable:
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+Ref Ref int a
+(new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))
+- SymTable:
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+(new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))
+- SymTable:
+a->Ref(0)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+new(a,Ref(1))
+(new(v,30); Print(Heap-Read(Heap-Read(a))))
+- SymTable:
+a->Ref(0)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+(new(v,30); Print(Heap-Read(Heap-Read(a))))
+- SymTable:
+a->Ref(2)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+
+Thread ID: 5
+- ExeStack:
+new(v,30)
+Print(Heap-Read(Heap-Read(a)))
+- SymTable:
+a->Ref(2)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+
+Thread ID: 5
+- ExeStack:
+Print(Heap-Read(Heap-Read(a)))
+- SymTable:
+a->Ref(2)
+v->Ref(3)
+- Out:
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+3->30
+
+Thread ID: 5
+- ExeStack:
+- SymTable:
+a->Ref(2)
+v->Ref(3)
+- Out:
+20
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+3->30
+
+Thread ID: 5
+- ExeStack:
+Ref int v
+(new(v,20); (Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 5
+- ExeStack:
+(new(v,20); (Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))))
+- SymTable:
+v->Ref(0)
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 5
+- ExeStack:
+new(v,20)
+(Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a))))))
+- SymTable:
+v->Ref(0)
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 5
+- ExeStack:
+(Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a))))))
+- SymTable:
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+Ref Ref int a
+(new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))
+- SymTable:
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+(new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))
+- SymTable:
+a->Ref(0)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+new(a,Ref(1))
+(new(v,30); Print(Heap-Read(Heap-Read(a))))
+- SymTable:
+a->Ref(0)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+(new(v,30); Print(Heap-Read(Heap-Read(a))))
+- SymTable:
+a->Ref(2)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+
+Thread ID: 5
+- ExeStack:
+new(v,30)
+Print(Heap-Read(Heap-Read(a)))
+- SymTable:
+a->Ref(2)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+
+Thread ID: 5
+- ExeStack:
+Print(Heap-Read(Heap-Read(a)))
+- SymTable:
+a->Ref(2)
+v->Ref(3)
+- Out:
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+3->30
+
+Thread ID: 5
+- ExeStack:
+- SymTable:
+a->Ref(2)
+v->Ref(3)
+- Out:
+20
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+3->30
+
+Thread ID: 5
+- ExeStack:
+(Ref int v; (new(v,20); (Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a))))))))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 5
+- ExeStack:
+Ref int v
+(new(v,20); (Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 5
+- ExeStack:
+Ref int v
+(new(v,20); (Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 5
+- ExeStack:
+(new(v,20); (Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))))
+- SymTable:
+v->Ref(0)
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 5
+- ExeStack:
+(new(v,20); (Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))))
+- SymTable:
+v->Ref(0)
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 5
+- ExeStack:
+new(v,20)
+(Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a))))))
+- SymTable:
+v->Ref(0)
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 5
+- ExeStack:
+new(v,20)
+(Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a))))))
+- SymTable:
+v->Ref(0)
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 5
+- ExeStack:
+(Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a))))))
+- SymTable:
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+(Ref Ref int a; (new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a))))))
+- SymTable:
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+Ref Ref int a
+(new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))
+- SymTable:
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+Ref Ref int a
+(new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))
+- SymTable:
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+(new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))
+- SymTable:
+a->Ref(0)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+(new(a,Ref(1)); (new(v,30); Print(Heap-Read(Heap-Read(a)))))
+- SymTable:
+a->Ref(0)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+new(a,Ref(1))
+(new(v,30); Print(Heap-Read(Heap-Read(a))))
+- SymTable:
+a->Ref(0)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+new(a,Ref(1))
+(new(v,30); Print(Heap-Read(Heap-Read(a))))
+- SymTable:
+a->Ref(0)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+
+Thread ID: 5
+- ExeStack:
+(new(v,30); Print(Heap-Read(Heap-Read(a))))
+- SymTable:
+a->Ref(2)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+
+Thread ID: 5
+- ExeStack:
+(new(v,30); Print(Heap-Read(Heap-Read(a))))
+- SymTable:
+a->Ref(2)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+
+Thread ID: 5
+- ExeStack:
+new(v,30)
+Print(Heap-Read(Heap-Read(a)))
+- SymTable:
+a->Ref(2)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+
+Thread ID: 5
+- ExeStack:
+new(v,30)
+Print(Heap-Read(Heap-Read(a)))
+- SymTable:
+a->Ref(2)
+v->Ref(1)
+- Out:
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+
+Thread ID: 5
+- ExeStack:
+Print(Heap-Read(Heap-Read(a)))
+- SymTable:
+a->Ref(2)
+v->Ref(3)
+- Out:
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+3->30
+
+Thread ID: 5
+- ExeStack:
+Print(Heap-Read(Heap-Read(a)))
+- SymTable:
+a->Ref(2)
+v->Ref(3)
+- Out:
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+3->30
+
+Thread ID: 5
+- ExeStack:
+- SymTable:
+a->Ref(2)
+v->Ref(3)
+- Out:
+20
+- FileTable:
+- Heap:
+1->20
+2->Ref(1)
+3->30
+

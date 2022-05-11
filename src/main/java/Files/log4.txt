@@ -1,0 +1,1373 @@
+Thread ID: 4
+- ExeStack:
+(string varf; varf=src/Files/test.in)
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+string varf
+varf=src/Files/test.in
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+varf=src/Files/test.in
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+varf->
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+varf->src/Files/test.in
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Open(varf)
+((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf))
+- SymTable:
+varf->src/Files/test.in
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf))
+- SymTable:
+varf->src/Files/test.in
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2e817b38
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc))))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2e817b38
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+int varc
+((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2e817b38
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2e817b38
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Read(varf, varc); Print(varc))
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2e817b38
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Read(varf, varc)
+Print(varc)
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2e817b38
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Print(varc)
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->12
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2e817b38
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->12
+- Out:
+12
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2e817b38
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Read(varf, varc)
+Print(varc)
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->12
+- Out:
+12
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2e817b38
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Print(varc)
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->50
+- Out:
+12
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2e817b38
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->50
+- Out:
+12
+50
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2e817b38
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+- SymTable:
+varf->src/Files/test.in
+varc->50
+- Out:
+12
+50
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(string varf; varf=src/Files/test.in)
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+string varf
+varf=src/Files/test.in
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+varf=src/Files/test.in
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+varf->
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+varf->src/Files/test.in
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Open(varf)
+((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf))
+- SymTable:
+varf->src/Files/test.in
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf))
+- SymTable:
+varf->src/Files/test.in
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2d8e6db6
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc))))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2d8e6db6
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+int varc
+((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2d8e6db6
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2d8e6db6
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Read(varf, varc); Print(varc))
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2d8e6db6
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Read(varf, varc)
+Print(varc)
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2d8e6db6
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Print(varc)
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->12
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2d8e6db6
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->12
+- Out:
+12
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2d8e6db6
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Read(varf, varc)
+Print(varc)
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->12
+- Out:
+12
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2d8e6db6
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Print(varc)
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->50
+- Out:
+12
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2d8e6db6
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->50
+- Out:
+12
+50
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@2d8e6db6
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+- SymTable:
+varf->src/Files/test.in
+varc->50
+- Out:
+12
+50
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(string varf; varf=src/Files/test.in)
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+string varf
+varf=src/Files/test.in
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+varf=src/Files/test.in
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+varf->
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+varf->src/Files/test.in
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Open(varf)
+((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf))
+- SymTable:
+varf->src/Files/test.in
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf))
+- SymTable:
+varf->src/Files/test.in
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@76fb509a
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc))))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@76fb509a
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+int varc
+((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@76fb509a
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@76fb509a
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Read(varf, varc); Print(varc))
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@76fb509a
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Read(varf, varc)
+Print(varc)
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@76fb509a
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Print(varc)
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->12
+- Out:
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@76fb509a
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->12
+- Out:
+12
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@76fb509a
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Read(varf, varc)
+Print(varc)
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->12
+- Out:
+12
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@76fb509a
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Print(varc)
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->50
+- Out:
+12
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@76fb509a
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Close(varf)
+- SymTable:
+varf->src/Files/test.in
+varc->50
+- Out:
+12
+50
+- FileTable:
+src/Files/test.in->java.io.BufferedReader@76fb509a
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+- SymTable:
+varf->src/Files/test.in
+varc->50
+- Out:
+12
+50
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+((string varf; varf=src/main/java/Files/test.in); (Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf))))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(string varf; varf=src/main/java/Files/test.in)
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(string varf; varf=src/main/java/Files/test.in)
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+string varf
+varf=src/main/java/Files/test.in
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+string varf
+varf=src/main/java/Files/test.in
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+varf=src/main/java/Files/test.in
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+varf->
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+varf=src/main/java/Files/test.in
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+varf->
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Open(varf)
+((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf))
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Open(varf)
+((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf))
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf))
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf))
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc))))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc))))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+int varc
+((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+int varc
+((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Read(varf, varc); Print(varc))
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Read(varf, varc); Print(varc))
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Read(varf, varc)
+Print(varc)
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Read(varf, varc)
+Print(varc)
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Print(varc)
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->12
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Print(varc)
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->12
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->12
+- Out:
+12
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->12
+- Out:
+12
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Read(varf, varc)
+Print(varc)
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->12
+- Out:
+12
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Read(varf, varc)
+Print(varc)
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->12
+- Out:
+12
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Print(varc)
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->50
+- Out:
+12
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Print(varc)
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->50
+- Out:
+12
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->50
+- Out:
+12
+50
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->50
+- Out:
+12
+50
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@6dc7a2f3
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->50
+- Out:
+12
+50
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+((string varf; varf=src/main/java/Files/test.in); (Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf))))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(string varf; varf=src/main/java/Files/test.in)
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(string varf; varf=src/main/java/Files/test.in)
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+string varf
+varf=src/main/java/Files/test.in
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+string varf
+varf=src/main/java/Files/test.in
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+varf=src/main/java/Files/test.in
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+varf->
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+varf=src/main/java/Files/test.in
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+varf->
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Open(varf); ((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf)))
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Open(varf)
+((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf))
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Open(varf)
+((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf))
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf))
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+((int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))); Close(varf))
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc))))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(int varc; ((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc))))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+int varc
+((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+int varc
+((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+((Read(varf, varc); Print(varc)); (Read(varf, varc); Print(varc)))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Read(varf, varc); Print(varc))
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Read(varf, varc); Print(varc))
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Read(varf, varc)
+Print(varc)
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Read(varf, varc)
+Print(varc)
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->0
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Print(varc)
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->12
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Print(varc)
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->12
+- Out:
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->12
+- Out:
+12
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+(Read(varf, varc); Print(varc))
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->12
+- Out:
+12
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Read(varf, varc)
+Print(varc)
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->12
+- Out:
+12
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Read(varf, varc)
+Print(varc)
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->12
+- Out:
+12
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Print(varc)
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->50
+- Out:
+12
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Print(varc)
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->50
+- Out:
+12
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->50
+- Out:
+12
+50
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+Close(varf)
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->50
+- Out:
+12
+50
+- FileTable:
+src/main/java/Files/test.in->java.io.BufferedReader@577a4655
+- Heap:
+
+Thread ID: 4
+- ExeStack:
+- SymTable:
+varf->src/main/java/Files/test.in
+varc->50
+- Out:
+12
+50
+- FileTable:
+- Heap:
+
