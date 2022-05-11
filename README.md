@@ -10,3 +10,5 @@ It contains:
 - Heap table (shared between all threads)
 - Open files table 
 - Output table
+
+https://user-images.githubusercontent.com/74305289/167938000-67c3d16f-bbd1-4f61-810e-e9e928fb9c29.mp4
